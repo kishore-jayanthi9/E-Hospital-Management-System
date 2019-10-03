@@ -1,0 +1,7 @@
+<td>
+	<div id="response<?php echo $pData->id;?>" style="float:left">
+		<div style="float:left" onclick="sendMessage(<?php echo $pData->pat_id;?>,<?php echo $pData->id;?>,<?php echo $pData->doc_id;?>,<?php echo $data->id;?>)">
+			send message
+		</div>
+	</div>
+</td>
